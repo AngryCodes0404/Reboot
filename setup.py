@@ -63,13 +63,13 @@ with codecs.open(
 setup(
     name="reboot",
     version=version_string,
-    description="Reboot Subnet – Robotics AI Network is a specialized Bittensor subnet for decentralized, AI-powered robotics services", 
+    description="Reboot Subnet – Robotics AI Network is a specialized Bittensor subnet for decentralized, AI-powered robotics services",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/reboot-org/reboot-subnet",  
+    url="https://github.com/reboot-org/reboot-subnet",
     packages=find_packages(),
     include_package_data=True,
-    author_email="", 
+    author_email="",
     license="MIT",
     python_requires=">=3.20",
     install_requires=requirements,
@@ -80,7 +80,6 @@ setup(
         # Pick your license as you wish
         "License :: OSI Approved :: MIT License",
         "Programming Language :: Python :: 3 :: Only",
-
         "Programming Language :: Python :: 3.10",
         "Topic :: Scientific/Engineering",
         "Topic :: Scientific/Engineering :: Mathematics",
